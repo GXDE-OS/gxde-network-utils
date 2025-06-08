@@ -1,7 +1,7 @@
-Source: dde-network-utils
+Source: gxde-network-utils
 Section: libs
 Priority: optional
-Maintainer: listenerri <listenerri@gmail.com>
+Maintainer: gfdgd xi <3025613752@qq.com>
 Build-Depends:
  debhelper (>= 9),
  libdframeworkdbus-dev (>= 1.0.2),
@@ -11,18 +11,24 @@ Build-Depends:
  qtchooser,
  qtbase5-dev,
 Standards-Version: 3.9.8
-Homepage: https://github.com/linuxdeepin/dde-network-utils
+Homepage: https://gitee.com/GXDE-OS/gxde-network-utils
 
-Package: libdde-network-utils
+Package: libgxde-network-utils
+Provides: libdde-network-utils
+Conflicts: libdde-network-utils
+Replaces: libdde-network-utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: DDE network utils
- DDE network utils.
+Description: GXDE network utils
+ GXDE network utils.
 
-Package: libdde-network-utils-dev
+Package: libgxde-network-utils-dev
+Provides: libdde-network-utils-dev
+Replaces: libdde-network-utils-dev
+Conflicts: libdde-network-utils-dev
 Architecture: any
 Section: libdevel
 Depends:
- libdde-network-utils, ${misc:Depends}
-Description: DDE network utils dev
- DDE network utils dev.
+ libgxde-network-utils, ${misc:Depends}
+Description: GXDE network utils dev
+ GXDE network utils dev.

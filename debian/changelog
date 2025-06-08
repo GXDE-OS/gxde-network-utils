@@ -1,4 +1,10 @@
-dde-network-utils (15.11~0.1.4-1+comsta) unstable; urgency=low
+gxde-network-utils (2:1.0.0) UNRELEASED; urgency=medium
+
+  * dde-network-utils=>gxde-network-utils
+
+ -- gfdgd_xi <3025613752@qq.com>  Sun, 08 Jun 2025 18:48:30 +0800
+
+gxde-network-utils (15.11~0.1.4-1+comsta) unstable; urgency=low
 
   * ['Autobuild release-candidate: 40798d5da578a8c0767af045a9b62f3510aa55a1']
 

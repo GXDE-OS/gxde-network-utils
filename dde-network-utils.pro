@@ -1,7 +1,7 @@
 QT       -= gui
 QT       += dbus network
 
-TARGET = dde-network-utils
+TARGET = gxde-network-utils
 TEMPLATE = lib
 CONFIG += link_pkgconfig c++11 create_pc create_prl no_install_prl no_keywords
 PKGCONFIG      += dframeworkdbus
@@ -45,7 +45,7 @@ CONFIG(release, debug|release) {
 target.path = $$PREFIX/lib
 includes.path = $$PREFIX/include/libddenetworkutils
 
-qm_files.path = $${PREFIX}/share/dde-network-utils/translations/
+qm_files.path = $${PREFIX}/share/gxde-network-utils/translations/
 qm_files.files = translations/*.qm
 
 TRANSLATIONS = translations/dde-control-center.ts

@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: dde-network-utils
-Source: https://github.com/linuxdeepin/dde-network-utils
+Upstream-Name: gxde-network-utils
+Source: https://github.com/linuxdeepin/gxde-network-utils
 
 Files: *
 Copyright: 2018-2018 Deepin Technology Co., Ltd.
