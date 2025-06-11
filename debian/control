@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: gfdgd xi <3025613752@qq.com>
 Build-Depends:
  debhelper (>= 9),
- libdframeworkdbus-dev (>= 1.0.2),
+ libgxframeworkdbus-dev (>= 1.0.2),
  pkg-config,
  qt5-qmake,
  qttools5-dev-tools,

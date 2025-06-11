@@ -1,4 +1,4 @@
-gxde-network-utils (2:1.0.0) UNRELEASED; urgency=medium
+gxde-network-utils (2:1.0.0-1) UNRELEASED; urgency=medium
 
   * dde-network-utils=>gxde-network-utils
 
