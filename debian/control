@@ -15,7 +15,7 @@ Homepage: https://gitee.com/GXDE-OS/gxde-network-utils
 
 Package: libgxde-network-utils
 Provides: libdde-network-utils
-Conflicts: libdde-network-utils
+Conflicts: libdde-network-utils (>> 2:1.0.0-2)
 Replaces: libdde-network-utils
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}

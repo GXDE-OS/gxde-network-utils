@@ -1,8 +1,9 @@
-gxde-network-utils (2:1.0.0) UNRELEASED; urgency=medium
+gxde-network-utils (2:1.0.1) UNRELEASED; urgency=medium
 
   * dde-network-utils=>gxde-network-utils
+  * 调整 Conflicts 版本
 
- -- gfdgd_xi <3025613752@qq.com>  Sun, 08 Jun 2025 18:48:30 +0800
+ -- gfdgd_xi <3025613752@qq.com>  Fri, 13 Jun 2025 22:27:34 +0800
 
 gxde-network-utils (15.11~0.1.4-1+comsta) unstable; urgency=low
 
